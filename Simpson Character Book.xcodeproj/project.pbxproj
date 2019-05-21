@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		39A9412F229404B90037A9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9412E229404B90037A9E8 /* AppDelegate.swift */; };
-		39A94131229404B90037A9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A94130229404B90037A9E8 /* ViewController.swift */; };
+		39A94131229404B90037A9E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A94130229404B90037A9E8 /* TableViewController.swift */; };
 		39A94134229404B90037A9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A94132229404B90037A9E8 /* Main.storyboard */; };
 		39A94136229404B90037A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A94135229404B90037A9E8 /* Assets.xcassets */; };
 		39A94139229404B90037A9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A94137229404B90037A9E8 /* LaunchScreen.storyboard */; };
 		39A94144229404B90037A9E8 /* Simpson_Character_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A94143229404B90037A9E8 /* Simpson_Character_BookTests.swift */; };
 		39A9414F229404B90037A9E8 /* Simpson_Character_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9414E229404B90037A9E8 /* Simpson_Character_BookUITests.swift */; };
+		39A9415D229407110037A9E8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9415C229407110037A9E8 /* DetailsViewController.swift */; };
+		39A941682294217B0037A9E8 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A941672294217B0037A9E8 /* Simpson.swift */; };
+		39A9416F229425810037A9E8 /* Homer.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9416B229425800037A9E8 /* Homer.png */; };
+		39A94170229425810037A9E8 /* Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9416C229425800037A9E8 /* Lisa.png */; };
+		39A94171229425810037A9E8 /* Maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9416D229425800037A9E8 /* Maggie.png */; };
+		39A94172229425810037A9E8 /* Bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9416E229425810037A9E8 /* Bart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		39A9412B229404B90037A9E8 /* Simpson Character Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpson Character Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A9412E229404B90037A9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39A94130229404B90037A9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39A94130229404B90037A9E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		39A94133229404B90037A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A94135229404B90037A9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A94138229404B90037A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		39A9414A229404B90037A9E8 /* Simpson Character BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpson Character BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A9414E229404B90037A9E8 /* Simpson_Character_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson_Character_BookUITests.swift; sourceTree = "<group>"; };
 		39A94150229404B90037A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A9415C229407110037A9E8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		39A941672294217B0037A9E8 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
+		39A9416B229425800037A9E8 /* Homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homer.png; sourceTree = "<group>"; };
+		39A9416C229425800037A9E8 /* Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lisa.png; sourceTree = "<group>"; };
+		39A9416D229425800037A9E8 /* Maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maggie.png; sourceTree = "<group>"; };
+		39A9416E229425810037A9E8 /* Bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		39A9412D229404B90037A9E8 /* Simpson Character Book */ = {
 			isa = PBXGroup;
 			children = (
+				39A9416E229425810037A9E8 /* Bart.png */,
+				39A9416B229425800037A9E8 /* Homer.png */,
+				39A9416C229425800037A9E8 /* Lisa.png */,
+				39A9416D229425800037A9E8 /* Maggie.png */,
 				39A9412E229404B90037A9E8 /* AppDelegate.swift */,
-				39A94130229404B90037A9E8 /* ViewController.swift */,
 				39A94132229404B90037A9E8 /* Main.storyboard */,
+				39A94130229404B90037A9E8 /* TableViewController.swift */,
+				39A9415C229407110037A9E8 /* DetailsViewController.swift */,
+				39A941672294217B0037A9E8 /* Simpson.swift */,
 				39A94135229404B90037A9E8 /* Assets.xcassets */,
 				39A94137229404B90037A9E8 /* LaunchScreen.storyboard */,
 				39A9413A229404B90037A9E8 /* Info.plist */,
@@ -230,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A94139229404B90037A9E8 /* LaunchScreen.storyboard in Resources */,
+				39A94172229425810037A9E8 /* Bart.png in Resources */,
 				39A94136229404B90037A9E8 /* Assets.xcassets in Resources */,
+				39A94170229425810037A9E8 /* Lisa.png in Resources */,
 				39A94134229404B90037A9E8 /* Main.storyboard in Resources */,
+				39A9416F229425810037A9E8 /* Homer.png in Resources */,
+				39A94171229425810037A9E8 /* Maggie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A94131229404B90037A9E8 /* ViewController.swift in Sources */,
+				39A94131229404B90037A9E8 /* TableViewController.swift in Sources */,
+				39A941682294217B0037A9E8 /* Simpson.swift in Sources */,
 				39A9412F229404B90037A9E8 /* AppDelegate.swift in Sources */,
+				39A9415D229407110037A9E8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
